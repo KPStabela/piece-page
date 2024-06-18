@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Woman Success</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <style>
+        body {
+            border: #402218;
+            background: linear-gradient(#dcb786, #ad752c);
+            transition: all;
+        }
+
+        .page-content {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 50px 100px;
+            background: #EAC696;
+            border-radius: 2%;
+        }
+
+        h1 {
+            font-size: 60px;
+            text-align: center;
+            font-family: "Dancing Script", cursive;
+            font-style: none;
+            line-height: 0.1;
+            padding-top: 0;
+            color: #402218;
+        }
+
+        h2 {
+            text-align: center;
+            font-family: sans-serif;
+            font-size: 25px;
+            color: #402218;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            max-width: 50%;
+            border-radius: 15px;
+            background-blend-mode: difference;
+        }
+
+        .snippet {
+            padding: 70px 0;
+            text-align: center;
+            line-height: 1.5;
+            padding: 20px 20px 20px 20px;
+            font-size: 16px;
+            color: #402218;
+            font-weight: 200px;
+        }
+
+        .todo {
+            font-style: italic;
+        }
+
+        .strengthen {
+            background: black;
+            height: 1px;
+        }
+
+        .read-more {
+            display: block;
+            margin-top: 0 auto;
+            text-decoration: none;
+            text-align: center;
+            color: #c497d1;
+        }
+
+        .read-more:hover {
+            color: blue;
+            font-weight: bold;
+        }
+
+        button {
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+            font-size: 16px;
+            color: #472D2D;
+            background: #A77979;
+            border-radius: 30px;
+            padding: 16px 24px;
+            box-shadow: 10px 5px 5px;
+            border: 5px solid #704F4F;
+            justify-content: center;
+            transition: all 200ms ease;
+            box-shadow: #A77979;
+            cursor: pointer;
+        }
+
+        button:hover {
+            color: #F3C5C5;
+            transition: 1s ease;
+        }
+
+        .code-by {
+            text-align: center;
+            font-size: 14px;
+            font-family: monospace;
+            text-decoration: none;
+            color: black;
+        }
+
+        .coder {
+            text-align: center;
+            color: #704F4F;
+        }
+
+        .code-by:hover {
+            color: #c497d1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page-content">
+        <h1>Black Woman Success</h1>
+        <h2>Education Business & Lifestyle</h2>
+        <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/111/241/original/303f5df795ac78a38696a428ea9ebf8c.jpg?1705676922"
+            alt="Successful Black Women"></img>
+        <p>
+            <hr class="strengthen">
+        <div class="snippet">
+            <strong>
+                Manier times.. black communities are associated with alcohol, violence, crime and abuse. Where no
+                progress and dependancy is normal.
+                <br>
+                From doing low earning jobs, black woman started getting "<em>woke</em>" as a new term arrised. Black
+                women got to know their worth, breaking down beariers, reaching for new heights and the key word...
+                Success!
+                <br>
+                Today i'm inspired, from black woman who are making <span class="todo"> education fashionable and
+                    success a lifestyle</span>. Black woman who take back charge in their lives, from run down pasts to
+                soild foundations put in place, creating generational wealth and unforgettable history.
+            </strong>
+        </div>
+        <hr class="strengthen">
+        <a href="https://www.topbusinesswomen.co.za/women-empowerment-south-africa/" target="_blank"
+            class="read-more">More on Women Empowerment</a>
+        </p>
+        <button href="https://www.womeng.org/" target="_blank">Mini Survey</button>
+        <p class="coder">Coded by <a href="https://www.shecodes.io/graduates/111516-katleho-percevierence-stabela"
+                target="_blank" class="code-by">Katleho P Stabela</a></p>
+    </div>
+    <script>
+        function MiniSurvey() {
+            let name = prompt("What is your name?");
+            let question = prompt("Do yo support Women Empowerment Group?");
+
+            if (question === "Yes") {
+                alert("Thank you!... " + name + " check out womeng.org " + ".");
+            } else {
+                alert("Thank you!... " + name + " your input is valued " + ".");
+            }
+        }
+
+        let MiniSurveyButton = document.querySelector("button");
+        MiniSurveyButton.addEventListener("click", MiniSurvey);
+    </script>
+
+</body>
+
+</html>
